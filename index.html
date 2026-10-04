@@ -10,7 +10,7 @@
     <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400,600,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400,600,800,900&display=swap" rel="stylesheet">
 
     <!-- Favicons  -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
@@ -26,13 +26,15 @@
         <main>
             <h1>Metric/Imperial Unit Conversion</h1>
 
-            <input type="number" id="input-value" class="input-value" name="input-value">
+            <div class="input-box">
+                <input type="number" id="input-value" class="input-value" name="input-value">
 
-            <button type="button">Convert</button>
+                <button id="convert-btn" type="button">Convert</button>
+            </div>
         </main>
 
-        <div class="results" id="results">
-
+        <div class="results-container" id="results-container">
+            
         </div>
     </div>
 </body>
